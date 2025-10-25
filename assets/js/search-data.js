@@ -37,7 +37,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-single-view-geometry",
+        },{id: "post-optimization-basics",
+        
+          title: "Optimization - Basics",
+        
+        description: "This tutorial mainly covers Newton&#39;s Method &amp; KKT Conditions",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Optimization-Basics/";
+          
+        },
+      },{id: "post-discrete-time-mpc",
+        
+          title: "Discrete-Time MPC",
+        
+        description: "Most basic mathematical model for Model Predictive Control",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Discrete-Time-MPC/";
+          
+        },
+      },{id: "post-single-view-geometry",
         
           title: "Single-View Geometry",
         
@@ -147,17 +169,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/Machine-Learning-Basics/";
           
         },
-      },{id: "post-a-distill-style-blog-post",
-        
-          title: "a distill-style blog post",
-        
-        description: "an example of a distill-style blog post and main elements",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/distill/";
-          
-        },
       },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
@@ -220,6 +231,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("mailto:%79%77%36%35%31%34@%6E%79%75.%65%64%75", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/Epon-Wang", "_blank");
         },
       },{
         id: 'social-linkedin',
