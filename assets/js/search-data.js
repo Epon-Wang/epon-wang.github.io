@@ -205,8 +205,13 @@ ninja.data = [{
           description: "Course Final Project of ECE-UY 4144",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gestureUnlock/";
-            },},{id: "projects-spacedoggy-quadruped-locomotion-under-low-gravity",
-          title: 'SpaceDoggy - Quadruped Locomotion Under Low Gravity',
+            },},{id: "projects-maze-vpr",
+          title: 'Maze VPR',
+          description: "Course Term Project of ROB-UY 3203",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/mazeVPR/";
+            },},{id: "projects-quadruped-locomotion-under-low-gravity",
+          title: 'Quadruped Locomotion Under Low Gravity',
           description: "Course Term Project of ROB-GY 7863A",
           section: "Projects",handler: () => {
               window.location.href = "/projects/spaceDoggy/";
