@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-optimization-basics",
+        },{id: "post-reinforcement-learning-td",
+        
+          title: "Reinforcement Learning - TD",
+        
+        description: "Temporal Difference Method. Based on Mathematical Foundations of Reinforcement Learning by Shiyu Zhao from Westlake University",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Reinforcement-Learning-TD/";
+          
+        },
+      },{id: "post-optimization-basics",
         
           title: "Optimization - Basics",
         
