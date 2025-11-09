@@ -191,19 +191,24 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-apriltag-positioning-system",
+          section: "News",},{id: "projects-acrobatic-2d-quadrotor",
+          title: 'Acrobatic 2D Quadrotor',
+          description: "Course Project of ROB-GY 6323, a Sequential Quadratic Programming (SQP) solver for a 2D quadrotor to perform flipping",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2dQuadrotor/";
+            },},{id: "projects-apriltag-positioning-system",
           title: 'AprilTag Positioning System',
-          description: "Vision Setup for real world experiment of a mobile object rearrangement task",
+          description: "Object Tracking Module implemented with Cameras and AprilTags, for real world experiments of a mobile object rearrangement task",
           section: "Projects",handler: () => {
               window.location.href = "/projects/AprilTagTracking/";
             },},{id: "projects-object-rearrangement-with-egocentric-view",
           title: 'Object Rearrangement with Egocentric View',
-          description: "Action Distillation (DAgger) of nonprehensile manipulation (car pushing a box)",
+          description: "Action Distillation (DAgger) of egocentric nonprehensile manipulation (car with FPV camera pushing a box)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/activePerception/";
             },},{id: "projects-box-stacking-in-pybullet",
           title: 'Box Stacking in PyBullet',
-          description: "Course Projects of ROB-UY 2004",
+          description: "Course Projects of ROB-UY 2004, impedance controllers for two manipulators to perform box stacking",
           section: "Projects",handler: () => {
               window.location.href = "/projects/boxStacking/";
             },},{id: "projects-e20-simulator",
@@ -213,12 +218,12 @@ ninja.data = [{
               window.location.href = "/projects/e20Simulator/";
             },},{id: "projects-3d-gesture-based-unlock-system",
           title: '3D Gesture-Based Unlock System',
-          description: "Course Final Project of ECE-UY 4144",
+          description: "Course Final Project of ECE-UY 4144, a motion-based 3D gesture lock",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gestureUnlock/";
             },},{id: "projects-maze-vpr",
           title: 'Maze VPR',
-          description: "Course Term Project of ROB-UY 3203",
+          description: "Course Term Project of ROB-UY 3203, a VPR system providing navigations for the driver of a small car in a maze",
           section: "Projects",handler: () => {
               window.location.href = "/projects/mazeVPR/";
             },},{id: "projects-quadruped-locomotion-under-low-gravity",
