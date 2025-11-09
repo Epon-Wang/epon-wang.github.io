@@ -14,5 +14,6 @@ nav_order: 6
 | ROB-GY 6323 | Reinforcement Learning and Optimal Control for Autonomous Systems I | [Ludovic Righetti](https://scholar.google.com/citations?user=LuA1j4oAAAAJ&hl=en) | In Progress |
 | ROB-GY 6313 | Robotic Gait and Manipulation | [Joo H. Kim](https://scholar.google.com/citations?user=A9kRCS0AAAAJ&hl=en) | A |
 | ROB-UY 3203 | Robot Vision  | [Jing Zhang](https://scholar.google.com/citations?user=fRGFTaEAAAAJ&hl=en) | A |
-| ROB-UY 2004 | Robotic Manipulation and Locomotion | [Ludovic Righetti](https://scholar.google.com/citations?user=LuA1j4oAAAAJ&hl=en) | A |
 | ECE-UY 3064 | Feedback Control  | [Ramin Eshaghi](https://www.linkedin.com/in/r-andy-eshaghi-39b1072) | A |
+| ROB-UY 2004 | Robotic Manipulation and Locomotion | [Ludovic Righetti](https://scholar.google.com/citations?user=LuA1j4oAAAAJ&hl=en) | A |
+
