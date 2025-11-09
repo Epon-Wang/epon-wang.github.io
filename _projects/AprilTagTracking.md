@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AprilTag Positioning System
-description: Vision Setup for real world experiment of a mobile object rearrangement task
+description: Object Tracking Module implemented with Cameras and AprilTags, for real world experiments of a mobile object rearrangement task
 img: assets/img/0.jpeg
 importance: 2
 category: 2024

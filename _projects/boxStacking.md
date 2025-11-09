@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Box Stacking in PyBullet
-description: Course Projects of ROB-UY 2004
+description: Course Projects of ROB-UY 2004, impedance controllers for two manipulators to perform box stacking
 img: assets/img/boxStacking.png
 importance: 1
 category: 2024
@@ -30,7 +30,7 @@ related_publications: false
   - Collected and analyzed various simulation data to evaluate and validate controller performances, documented methods and results in interactive notebooks
 
 ***
-### **Box Stacking and Reordering**
+### **Box Stacking**
 
 <img src="panda.gif" alt="114514" style="display:block;margin:0 auto;max-width:58%;height:auto;" />
 

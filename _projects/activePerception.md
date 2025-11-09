@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Object Rearrangement with Egocentric View
-description: Action Distillation (DAgger) of nonprehensile manipulation (car pushing a box)
+description: Action Distillation (DAgger) of egocentric nonprehensile manipulation (car with FPV camera pushing a box)
 img: assets/img/0.jpeg
 importance: 1
 category: 2025

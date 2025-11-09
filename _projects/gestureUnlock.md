@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 3D Gesture-Based Unlock System
-description: Course Final Project of ECE-UY 4144
+description: Course Final Project of ECE-UY 4144, a motion-based 3D gesture lock
 img: assets/img/0.jpeg
 importance: 3
 category: 2024

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Maze VPR
-description: Course Term Project of ROB-UY 3203
+description: Course Term Project of ROB-UY 3203, a VPR system providing navigations for the driver of a small car in a maze
 img: assets/img/0.jpeg
 importance: 3
 category: 2025
