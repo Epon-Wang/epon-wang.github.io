@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Acrobatic 2D Quadrotor
-description: Course Project of ROB-GY 6323, a Sequential Quadratic Programming (SQP) solver for a 2D quadrotor to perform flipping
+description: A Sequential Quadratic Programming (SQP) solver for a 2D quadrotor to perform flipping
 img: assets/img/quadrotor.png
-importance: 2
+importance: 4
 category: 2025
 related_publications: false
 ---
