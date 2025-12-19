@@ -193,7 +193,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-acrobatic-2d-quadrotor",
           title: 'Acrobatic 2D Quadrotor',
-          description: "Course Project of ROB-GY 6323, a Sequential Quadratic Programming (SQP) solver for a 2D quadrotor to perform flipping",
+          description: "A Sequential Quadratic Programming (SQP) solver for a 2D quadrotor to perform flipping",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2dQuadrotor/";
             },},{id: "projects-apriltag-positioning-system",
@@ -208,14 +208,9 @@ ninja.data = [{
               window.location.href = "/projects/activePerception/";
             },},{id: "projects-box-stacking-in-pybullet",
           title: 'Box Stacking in PyBullet',
-          description: "Course Projects of ROB-UY 2004, impedance controllers for two manipulators to perform box stacking",
+          description: "Impedance controllers for two manipulators to perform box stacking",
           section: "Projects",handler: () => {
               window.location.href = "/projects/boxStacking/";
-            },},{id: "projects-e20-simulator",
-          title: 'E20 Simulator',
-          description: "Implementation of an hypothetical 16-bit processor using RISC Architecture with C++",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/e20Simulator/";
             },},{id: "projects-3d-gesture-based-unlock-system",
           title: '3D Gesture-Based Unlock System',
           description: "Course Final Project of ECE-UY 4144, a motion-based 3D gesture lock",
@@ -226,9 +221,14 @@ ninja.data = [{
           description: "Course Term Project of ROB-UY 3203, a VPR system providing navigations for the driver of a small car in a maze",
           section: "Projects",handler: () => {
               window.location.href = "/projects/mazeVPR/";
-            },},{id: "projects-quadruped-locomotion-under-low-gravity",
-          title: 'Quadruped Locomotion Under Low Gravity',
-          description: "Course Term Project of ROB-GY 7863A",
+            },},{id: "projects-reinforcement-learning-for-quadrupedal-locomotion",
+          title: 'Reinforcement Learning for Quadrupedal Locomotion',
+          description: "Training robust walking policies for the Unitree Go2 robot using Proximal Policy Optimization (PPO)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/quadrupedalLocomotion/";
+            },},{id: "projects-quadrupedal-landing-control-under-low-gravity",
+          title: 'Quadrupedal Landing Control Under Low Gravity',
+          description: "Quadrupedal attitude control &amp; landing strategies under reduced gravity with diverse initial poses, trained using Proximal Policy Optimization (PPO)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/spaceDoggy/";
             },},{
