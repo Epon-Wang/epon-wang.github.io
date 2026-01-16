@@ -26,9 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 \
-I am a senior-year undergraduate student pursuing a degree in Electrical and Computer Engineering at [NYU Tandon](https://engineering.nyu.edu/). My primary research interests lie at the intersection of **Robotics** with embodied intelligence and **Learning-Based Control** techniques.\
+I am a senior-year undergraduate student pursuing a degree in Electrical and Computer Engineering at [NYU Tandon](https://engineering.nyu.edu/). My primary research interests lie at **robot learning**\
 \
-During my time at NYU, I am fortunate to actively participate in the research of **Mobile Manipulator** and **Object Rearrangement Tasks** at [AI4CE Lab](https://ai4ce.github.io/) led by [Prof. Chen Feng](https://engineering.nyu.edu/faculty/chen-feng).\
-\
-I am passionate and interested in developing robotic applications equiped with robust interpretability and verifiability guarantees. The goal is twofold: to effectively bridge the sim-to-real gap in robotics experiments, and to address the critical need for safe and trustworthy autonomous systems in real-world.
+During my time at NYU, I am fortunate to actively participate in the research of **mobile manipulation** at [AI4CE Lab](https://ai4ce.github.io/) led by [Prof. Chen Feng](https://engineering.nyu.edu/faculty/chen-feng).\
 

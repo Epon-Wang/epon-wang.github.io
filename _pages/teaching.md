@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: Courses
 description: Several courses attended covering a wide range of topics on manipulation, locomotion, optimal control, vision, ML/RL, etc.
-nav: true
+nav: False
 nav_order: 6
 ---
 
