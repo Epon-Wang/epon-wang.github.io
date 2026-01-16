@@ -21,12 +21,12 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 \
 I am a senior-year undergraduate student pursuing a degree in Electrical and Computer Engineering at [NYU Tandon](https://engineering.nyu.edu/). My primary research interests lie at **robot learning**\
 \
-During my time at NYU, I am fortunate to actively participate in the research of **mobile manipulation** at [AI4CE Lab](https://ai4ce.github.io/) led by [Prof. Chen Feng](https://engineering.nyu.edu/faculty/chen-feng).\
+During my time at NYU, I am fortunate to actively participate in the research of **mobile manipulation** at [AI4CE Lab](https://ai4ce.github.io/) led by [Prof. Chen Feng](https://engineering.nyu.edu/faculty/chen-feng).
 
