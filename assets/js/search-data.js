@@ -16,157 +16,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "Repositories",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
-        },{id: "post-reinforcement-learning-td",
-        
-          title: "Reinforcement Learning - TD",
-        
-        description: "Temporal Difference Method. Based on Mathematical Foundations of Reinforcement Learning by Shiyu Zhao from Westlake University",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/Reinforcement-Learning-TD/";
-          
-        },
-      },{id: "post-optimization-basics",
-        
-          title: "Optimization - Basics",
-        
-        description: "This tutorial mainly covers Newton&#39;s Method &amp; KKT Conditions",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/Optimization-Basics/";
-          
-        },
-      },{id: "post-discrete-time-mpc",
-        
-          title: "Discrete-Time MPC",
-        
-        description: "Most basic mathematical model for Model Predictive Control",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/Discrete-Time-MPC/";
-          
-        },
-      },{id: "post-single-view-geometry",
-        
-          title: "Single-View Geometry",
-        
-        description: "This tutorial covers Homography &amp; other topics related to Single-View Reconstruction",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/Single-View-Geometry/";
-          
-        },
-      },{id: "post-opencv-basics",
-        
-          title: "OpenCV - Basics",
-        
-        description: "Basic Usage of OpenCV(cv2) with its python bindings",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/OpenCV-Basics/";
-          
-        },
-      },{id: "post-opencv-advanced",
-        
-          title: "OpenCV - Advanced",
-        
-        description: "Some advanced usage of OpenCV(cv2) with its python bindings",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/OpenCV-Advanced/";
-          
-        },
-      },{id: "post-multi-view-geometry",
-        
-          title: "Multi-View Geometry",
-        
-        description: "This tutorial covers Epipolar Geometry &amp; Stereo",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/Multi-View-Geometry/";
-          
-        },
-      },{id: "post-camera-model",
-        
-          title: "Camera Model",
-        
-        description: "This tutorial covers Rigid-Body Transformation &amp; Pinhole Camera Model",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/Camera-Model/";
-          
-        },
-      },{id: "post-reinforcement-learning-vi-pi",
-        
-          title: "Reinforcement Learning - VI-PI",
-        
-        description: "Value/Policy Iteration. Based on Mathematical Foundations of Reinforcement Learning by Shiyu Zhao from Westlake University",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/Reinforcement-Learning-VI-PI/";
-          
-        },
-      },{id: "post-reinforcement-learning-mc",
-        
-          title: "Reinforcement Learning - MC",
-        
-        description: "Monte Carlo Method. Based on Mathematical Foundations of Reinforcement Learning by Shiyu Zhao from Westlake University",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/Reinforcement-Learning-MC/";
-          
-        },
-      },{id: "post-reinforcement-learning-basics",
-        
-          title: "Reinforcement Learning - Basics",
-        
-        description: "Basics of RL. Based on Mathematical Foundations of Reinforcement Learning by Shiyu Zhao from Westlake University",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/Reinforcement-Learning-Basics/";
-          
-        },
-      },{id: "post-machine-learning-nn",
-        
-          title: "Machine Learning - NN",
-        
-        description: "From linear classifier to Neural Network. Based on MIT 6.036 Introduction to Machine Learning Lecture 6-7",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/Machine-Learning-NN/";
-          
-        },
-      },{id: "post-machine-learning-basics",
-        
-          title: "Machine Learning - Basics",
-        
-        description: "Basics of ML. Based on MIT 6.036 Introduction to Machine Learning Lecture 1-5",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/Machine-Learning-Basics/";
-          
-        },
-      },{id: "news-a-simple-inline-announcement",
+        },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
@@ -182,11 +32,6 @@ ninja.data = [{
           description: "A Sequential Quadratic Programming (SQP) solver for a 2D quadrotor to perform flipping",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2dQuadrotor/";
-            },},{id: "projects-apriltag-positioning-system",
-          title: 'AprilTag Positioning System',
-          description: "Object Tracking Module implemented with Cameras and AprilTags, for real world experiments of a mobile object rearrangement task",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/AprilTagTracking/";
             },},{id: "projects-object-rearrangement-with-egocentric-view",
           title: 'Object Rearrangement with Egocentric View',
           description: "Action Distillation (DAgger) of egocentric nonprehensile manipulation (car with FPV camera pushing a box)",
@@ -197,16 +42,6 @@ ninja.data = [{
           description: "Impedance controllers for two manipulators to perform box stacking",
           section: "Projects",handler: () => {
               window.location.href = "/projects/boxStacking/";
-            },},{id: "projects-3d-gesture-based-unlock-system",
-          title: '3D Gesture-Based Unlock System',
-          description: "Course Final Project of ECE-UY 4144, a motion-based 3D gesture lock",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/gestureUnlock/";
-            },},{id: "projects-maze-vpr",
-          title: 'Maze VPR',
-          description: "Course Term Project of ROB-UY 3203, a VPR system providing navigations for the driver of a small car in a maze",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/mazeVPR/";
             },},{id: "projects-reinforcement-learning-for-quadrupedal-locomotion",
           title: 'Reinforcement Learning for Quadrupedal Locomotion',
           description: "Training robust walking policies for the Unitree Go2 robot using Proximal Policy Optimization (PPO)",
@@ -214,7 +49,7 @@ ninja.data = [{
               window.location.href = "/projects/quadrupedalLocomotion/";
             },},{id: "projects-quadrupedal-landing-control-under-low-gravity",
           title: 'Quadrupedal Landing Control Under Low Gravity',
-          description: "Quadrupedal attitude control &amp; landing strategies under reduced gravity with diverse initial poses, trained using Proximal Policy Optimization (PPO)",
+          description: "Quadrupedal attitude control &amp; landing control under reduced gravity with diverse initial poses, trained using Proximal Policy Optimization (PPO)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/spaceDoggy/";
             },},{
