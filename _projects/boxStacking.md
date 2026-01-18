@@ -16,29 +16,23 @@ related_publications: false
 ![PyBullet](https://img.shields.io/badge/pybullet-passing?style=for-the-badge&color=ff9a00)
 
 ***
-### **Box Stacking and Reordering**
 
-<img src="nyufinger.gif" alt="114514" style="display:block;margin:0 auto;max-width:75%;height:auto;" />
-
-- **Model**\
-  [Open Dynamic Robot Initiative](https://open-dynamic-robot-initiative.github.io/), 2 sets of 3-DOF robotic fingers
-- **Simulator**\
-  [PyBullet](https://github.com/bulletphysics/bullet3)
-- **Description**
-  - Implemented ***forward and inverse kinematics*** with `NumPy` and `SciPy`; generated trajectory in joint-space with linear time interpolation for smooth motion
-  - Designed and tuned an ***impedance controller*** operating in end-effector space to perform reaching, grasping, and lifting under collaboration
-  - Collected and analyzed various simulation data to evaluate and validate controller performances, documented methods and results in interactive notebooks
-
-***
 ### **Box Stacking**
 
-<img src="panda.gif" alt="114514" style="display:block;margin:0 auto;max-width:58%;height:auto;" />
+<img src="panda.gif" alt="114514" style="display:block;margin:0 auto;max-width:35%;height:auto;" />
 
-- **Model**\
-  [Franka Emika Panda](https://robodk.com/robot/Franka/Emika-Panda), 7-DOF robot arm
-- **Simulator**\
-  [PyBullet](https://github.com/bulletphysics/bullet3)
 - **Description**
-  - Implemented inverse kinematics with `NumPy` and `SciPy`; generated trajectory in joint-space with linear time interpolation for smooth motion
-  - Designed and tuned an ***impedance controller*** with ***gravity compensation*** operating in end-effector space to perform reaching and grasping, aligned end-effector with ground plane to enhance stability and accuracy in box manipulation
+  - Developed a robotic manipulation pipeline for a 7-DOF Franka Emika Panda robotic arm in PyBullet to autonomously execute multi-stage pick-and-place tasks}
+  - Formulated a hybrid Jacobian controller by fusing World-Frame linear components with Body-Frame angular dynamics, enforcing a strict downward-facing end-effector constraint to eliminate undesired joint configurations}
+  - Implemented a Cartesian impedance controller with gravity compensation, utilizing quintic spline interpolation for jerk-free trajectory generation and numerical optimization for inverse kinematics}
+
+***
+
+### **Box Stacking and Reordering**
+
+<img src="nyufinger.gif" alt="114514" style="display:block;margin:0 auto;max-width:35%;height:auto;" />
+
+- **Description**
+  - Implemented ***forward and inverse kinematics*** for a 3-DOF robot finger with `NumPy` and `SciPy`; generated trajectory in joint-space with linear time interpolation for smooth motion
+  - Designed and tuned an ***impedance controller*** operating in end-effector space to perform reaching, grasping, and lifting under collaboration
   - Collected and analyzed various simulation data to evaluate and validate controller performances, documented methods and results in interactive notebooks
