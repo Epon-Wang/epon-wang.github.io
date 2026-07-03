@@ -1,0 +1,63 @@
+<div class="projects" id="projects">
+  <ul class="bibliography list-unstyled">
+    <li>
+      <div class="row">
+        <div class="col-sm-3 abbr">
+          {% assign project_preview_path = '/assets/img/projects/3flips.gif' %}
+          {%
+            include figure.liquid
+            loading="eager"
+            path=project_preview_path
+            sizes="200px"
+            class="preview img-fluid z-depth-1 rounded"
+            zoomable=true
+            avoid_scaling=true
+            alt="Project Title"
+          %}
+        </div>
+
+        <div class="col-sm-9">
+          <div class="title font-weight-bold">Project Title</div>
+
+          <div class="author">Project subtitle or one-sentence description.</div>
+
+          <div class="periodical"><em>Project area or course/lab</em>, 2025</div>
+
+          <div class="links">
+            <a href="https://github.com/your-username/your-project" class="btn btn-sm z-depth-0" role="button">Code</a>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li>
+      <div class="row">
+        <div class="col-sm-3 abbr">
+          {% assign project_preview_path = '/assets/img/projects/gait.gif' %}
+          {%
+            include figure.liquid
+            loading="eager"
+            path=project_preview_path
+            sizes="200px"
+            class="preview img-fluid z-depth-1 rounded"
+            zoomable=true
+            avoid_scaling=true
+            alt="Second Project Title"
+          %}
+        </div>
+
+        <div class="col-sm-9">
+          <div class="title font-weight-bold">Second Project Title</div>
+
+          <div class="author">Another short project description.</div>
+
+          <div class="periodical"><em>Project area or course/lab</em>, 2024</div>
+
+          <div class="links">
+            <a href="https://github.com/your-username/your-project" class="btn btn-sm z-depth-0" role="button">Code</a>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>

@@ -12,7 +12,8 @@ profile:
     <p>Prospect Park, Brooklyn</p>
   # <p>NY, United States</p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_projects: true # includes the about-page Projects section
 social: false # includes social icons at the bottom of the page
 
 announcements:
