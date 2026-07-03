@@ -706,6 +706,24 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 3rem;
+
+      .title {
+        font-weight: bolder;
+        line-height: 1.25;
+        margin-bottom: 0.2rem;
+      }
+
+      .author {
+        color: var(--global-text-color-light);
+        font-size: 0.95rem;
+        line-height: 1.42;
+        margin-bottom: 0.15rem;
+      }
+
+      .periodical {
+        font-size: 0.95rem;
+        line-height: 1.35;
+      }
     }
   }
 
