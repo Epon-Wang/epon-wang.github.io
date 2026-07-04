@@ -26,10 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 \
-I am a senior-year undergraduate student pursuing a degree in Electrical and Computer Engineering at [NYU Tandon](https://engineering.nyu.edu/).
+I am an incoming MSE Robotics student at [UPenn GRASP Lab](https://www.grasp.upenn.edu/). I recently graduated from [NYU Tandon](https://engineering.nyu.edu/) with a BS in Electrical and Computer Engineering.
 
 \
-My current research interests lie at the intersection of **robot learning** and **computer vision**
-
-\
-During my time at NYU, I am fortunate to be advised by [Prof. Chen Feng](https://engineering.nyu.edu/faculty/chen-feng) in the research of **non-prehensile mobile manipulation** and **object rearrangement** at [AI4CE Lab](https://ai4ce.github.io/).
+My research interests lie at the intersection of robot learning and spatial intelligence for embodied agents. During my time at NYU, I am fortunate to be advised by [Prof. Chen Feng](https://scholar.google.com/citations?user=YeG8ZM0AAAAJ&hl=en) at [AI4CE Lab](https://ai4ce.github.io/) on non-prehensile mobile manipulation and sim-to-real robot learning. My work has focused on building robotic systems that connect simulation, perception, and control, with an emphasis on making learned policies deployable on hardware.
