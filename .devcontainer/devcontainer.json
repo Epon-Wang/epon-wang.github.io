@@ -12,8 +12,11 @@
     "ghcr.io/devcontainers-extra/features/prettier:1.0.2": {}
   },
 
+  "appPort": ["127.0.0.1:8080:8080", "127.0.0.1:35729:35729"],
+
   // Optionally: run jekyll serve automatically on container entering using the Docker entrypoint
-  "postAttachCommand": "./bin/entry_point.sh",
+  // "postAttachCommand": "./bin/entry_point.sh",
+  "postStartCommand": "bash -lc 'if [ -s /tmp/jekyll-entrypoint.pid ] && kill -0 \"$(cat /tmp/jekyll-entrypoint.pid)\" 2>/dev/null; then exit 0; fi; cd /workspaces/epon-wang.github.io && nohup setsid -f bash -lc \"echo \\$\\$ >/tmp/jekyll-entrypoint.pid && exec ./bin/entry_point.sh\" >/tmp/jekyll-entrypoint.log 2>&1 </dev/null; sleep 2'",
 
   "customizations": {
     "vscode": {
@@ -22,7 +25,18 @@
         // use prettier code formatter as default formatter
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "prettier.configPath": ".prettierrc",
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "remote.autoForwardPorts": false,
+        "remote.portsAttributes": {
+          "8080": {
+            "label": "Jekyll",
+            "onAutoForward": "ignore"
+          },
+          "35729": {
+            "label": "Jekyll LiveReload",
+            "onAutoForward": "ignore"
+          }
+        }
       }
     }
   },

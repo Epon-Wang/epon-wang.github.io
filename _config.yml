@@ -44,6 +44,11 @@ socials_in_search: true
 posts_in_search: true
 bib_search: true
 
+navbar_external_links:
+  - title: Blogs
+    url: https://epon-wang.github.io/fungus-field/
+    nav_order: 1
+
 # Dimensions
 max_width: 930px
 

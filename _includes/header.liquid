@@ -56,6 +56,16 @@
             </a>
           </li>
 
+          <!-- External links -->
+          {% assign sorted_external_nav_links = site.navbar_external_links | sort: 'nav_order' %}
+          {% for link in sorted_external_nav_links %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ link.url }}">
+                {{- link.title -}}
+              </a>
+            </li>
+          {% endfor %}
+
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
